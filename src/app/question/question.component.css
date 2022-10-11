@@ -1,0 +1,32 @@
+.faq{
+    margin-block: 1.5em;
+}
+
+h3 {
+    color: hsl(237, 12%, 33%);
+    position: relative;
+    font-weight: 400;
+    cursor: pointer;
+}
+h3:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+p{
+    margin-top: 1em;
+    color: hsl(240, 6%, 50%);
+    display: none;
+}
+
+span{
+    position: absolute;
+    right: 0;
+}
+
+span > img {
+    cursor: pointer;
+}
+
+.rotate-arrow{
+    rotate: 180deg;
+}
