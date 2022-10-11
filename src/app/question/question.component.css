@@ -30,3 +30,8 @@ span > img {
 .rotate-arrow{
     rotate: 180deg;
 }
+
+hr{
+    margin-top: 2em;
+    color: hsl(240, 5%, 91%);
+}

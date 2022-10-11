@@ -1,13 +1,5 @@
 <div class="main-card">
   <img src="../assets/images/illustration-woman-online-mobile.svg" alt="">
   <h1>FAQ</h1>
-  <my-question [question]="questions[0]"></my-question>
-  <hr>
-  <my-question [question]="questions[1]"></my-question>
-  <hr>
-  <my-question [question]="questions[2]"></my-question>
-  <hr>
-  <my-question [question]="questions[3]"></my-question>
-  <hr>
-  <my-question [question]="questions[4]"></my-question>
+  <my-question *ngFor="let question of questions" [question]="question"></my-question>
 </div>
